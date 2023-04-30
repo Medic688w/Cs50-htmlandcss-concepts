@@ -1,0 +1,20 @@
+/* this is a simple grid template */
+#grid{
+    background-color: springgreen;
+    display: grid;
+    padding:29px;
+    grid-column-gap:39px;
+    grid-row-gap: 18px;
+    grid-template-columns: 200px 200px auto;
+    border: 3px darkblue solid;
+    
+}
+.grid-item {
+    background-color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    border: 2px violet solid;
+}
+
